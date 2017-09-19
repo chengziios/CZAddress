@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0962109C1F70F0DF008024E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962109B1F70F0DF008024E4 /* main.m */; };
+		0962109F1F70F0DF008024E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962109E1F70F0DF008024E4 /* AppDelegate.m */; };
+		096210AA1F70F0DF008024E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096210A91F70F0DF008024E4 /* Assets.xcassets */; };
+		096210AD1F70F0DF008024E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096210AB1F70F0DF008024E4 /* LaunchScreen.storyboard */; };
+		096210B81F70F0DF008024E4 /* CZAddressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096210B71F70F0DF008024E4 /* CZAddressTests.m */; };
+		096210C31F70F0DF008024E4 /* CZAddressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096210C21F70F0DF008024E4 /* CZAddressUITests.m */; };
+		096210D41F70F1C6008024E4 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 096210D11F70F1C6008024E4 /* area.json */; };
+		096210D51F70F1C6008024E4 /* CZAddressSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 096210D31F70F1C6008024E4 /* CZAddressSelectView.m */; };
+		096210D81F70F61C008024E4 /* UIView+CZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 096210D71F70F61C008024E4 /* UIView+CZCategory.m */; };
+		096210E41F70FE0A008024E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096210E21F70FE0A008024E4 /* ViewController.m */; };
+		096210E51F70FE0A008024E4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096210E31F70FE0A008024E4 /* ViewController.xib */; };
+		099B4B6F1F71020200D11435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099B4B6E1F71020200D11435 /* Main.storyboard */; };
+		AD0CB9A3386E8A0B2E33B8C9 /* libPods-CZAddress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C3936BDB976444185B2A1E /* libPods-CZAddress.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		096210B41F70F0DF008024E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0962108F1F70F0DF008024E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096210961F70F0DF008024E4;
+			remoteInfo = CZAddress;
+		};
+		096210BF1F70F0DF008024E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0962108F1F70F0DF008024E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096210961F70F0DF008024E4;
+			remoteInfo = CZAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096210971F70F0DF008024E4 /* CZAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0962109B1F70F0DF008024E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0962109D1F70F0DF008024E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0962109E1F70F0DF008024E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		096210A91F70F0DF008024E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		096210AC1F70F0DF008024E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		096210AE1F70F0DF008024E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096210B31F70F0DF008024E4 /* CZAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		096210B71F70F0DF008024E4 /* CZAddressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZAddressTests.m; sourceTree = "<group>"; };
+		096210B91F70F0DF008024E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096210BE1F70F0DF008024E4 /* CZAddressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZAddressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		096210C21F70F0DF008024E4 /* CZAddressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZAddressUITests.m; sourceTree = "<group>"; };
+		096210C41F70F0DF008024E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096210D11F70F1C6008024E4 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
+		096210D21F70F1C6008024E4 /* CZAddressSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAddressSelectView.h; sourceTree = "<group>"; };
+		096210D31F70F1C6008024E4 /* CZAddressSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZAddressSelectView.m; sourceTree = "<group>"; };
+		096210D61F70F61C008024E4 /* UIView+CZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZCategory.h"; sourceTree = "<group>"; };
+		096210D71F70F61C008024E4 /* UIView+CZCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZCategory.m"; sourceTree = "<group>"; };
+		096210E11F70FE0A008024E4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		096210E21F70FE0A008024E4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		096210E31F70FE0A008024E4 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		099B4B6E1F71020200D11435 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		25C3936BDB976444185B2A1E /* libPods-CZAddress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZAddress.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51026217D67284FE77FB1A3C /* Pods-CZAddress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZAddress.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZAddress/Pods-CZAddress.release.xcconfig"; sourceTree = "<group>"; };
+		FF6A1FD1591CD77775AF5787 /* Pods-CZAddress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZAddress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZAddress/Pods-CZAddress.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096210941F70F0DF008024E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0CB9A3386E8A0B2E33B8C9 /* libPods-CZAddress.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096210B01F70F0DF008024E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096210BB1F70F0DF008024E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0962108E1F70F0DF008024E4 = {
+			isa = PBXGroup;
+			children = (
+				096210D01F70F1C6008024E4 /* CZAddressSelectView */,
+				096210991F70F0DF008024E4 /* CZAddress */,
+				096210B61F70F0DF008024E4 /* CZAddressTests */,
+				096210C11F70F0DF008024E4 /* CZAddressUITests */,
+				096210981F70F0DF008024E4 /* Products */,
+				5F3A060B58C7E729FF09BA6D /* Pods */,
+				362F9476F40BA4793AE849E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		096210981F70F0DF008024E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				096210971F70F0DF008024E4 /* CZAddress.app */,
+				096210B31F70F0DF008024E4 /* CZAddressTests.xctest */,
+				096210BE1F70F0DF008024E4 /* CZAddressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		096210991F70F0DF008024E4 /* CZAddress */ = {
+			isa = PBXGroup;
+			children = (
+				099B4B6E1F71020200D11435 /* Main.storyboard */,
+				096210E11F70FE0A008024E4 /* ViewController.h */,
+				096210E21F70FE0A008024E4 /* ViewController.m */,
+				096210E31F70FE0A008024E4 /* ViewController.xib */,
+				0962109D1F70F0DF008024E4 /* AppDelegate.h */,
+				0962109E1F70F0DF008024E4 /* AppDelegate.m */,
+				096210A91F70F0DF008024E4 /* Assets.xcassets */,
+				096210AB1F70F0DF008024E4 /* LaunchScreen.storyboard */,
+				096210AE1F70F0DF008024E4 /* Info.plist */,
+				0962109A1F70F0DF008024E4 /* Supporting Files */,
+			);
+			path = CZAddress;
+			sourceTree = "<group>";
+		};
+		0962109A1F70F0DF008024E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0962109B1F70F0DF008024E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		096210B61F70F0DF008024E4 /* CZAddressTests */ = {
+			isa = PBXGroup;
+			children = (
+				096210B71F70F0DF008024E4 /* CZAddressTests.m */,
+				096210B91F70F0DF008024E4 /* Info.plist */,
+			);
+			path = CZAddressTests;
+			sourceTree = "<group>";
+		};
+		096210C11F70F0DF008024E4 /* CZAddressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				096210C21F70F0DF008024E4 /* CZAddressUITests.m */,
+				096210C41F70F0DF008024E4 /* Info.plist */,
+			);
+			path = CZAddressUITests;
+			sourceTree = "<group>";
+		};
+		096210D01F70F1C6008024E4 /* CZAddressSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				096210D61F70F61C008024E4 /* UIView+CZCategory.h */,
+				096210D71F70F61C008024E4 /* UIView+CZCategory.m */,
+				096210D11F70F1C6008024E4 /* area.json */,
+				096210D21F70F1C6008024E4 /* CZAddressSelectView.h */,
+				096210D31F70F1C6008024E4 /* CZAddressSelectView.m */,
+			);
+			path = CZAddressSelectView;
+			sourceTree = "<group>";
+		};
+		362F9476F40BA4793AE849E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25C3936BDB976444185B2A1E /* libPods-CZAddress.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F3A060B58C7E729FF09BA6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A1FD1591CD77775AF5787 /* Pods-CZAddress.debug.xcconfig */,
+				51026217D67284FE77FB1A3C /* Pods-CZAddress.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		096210961F70F0DF008024E4 /* CZAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096210C71F70F0DF008024E4 /* Build configuration list for PBXNativeTarget "CZAddress" */;
+			buildPhases = (
+				300BAAA108F0F40982B7B80B /* [CP] Check Pods Manifest.lock */,
+				096210931F70F0DF008024E4 /* Sources */,
+				096210941F70F0DF008024E4 /* Frameworks */,
+				096210951F70F0DF008024E4 /* Resources */,
+				0292121987A7B90F0F0BD98E /* [CP] Embed Pods Frameworks */,
+				EBB56D72D98CBEBDD0135FE1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZAddress;
+			productName = CZAddress;
+			productReference = 096210971F70F0DF008024E4 /* CZAddress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		096210B21F70F0DF008024E4 /* CZAddressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096210CA1F70F0DF008024E4 /* Build configuration list for PBXNativeTarget "CZAddressTests" */;
+			buildPhases = (
+				096210AF1F70F0DF008024E4 /* Sources */,
+				096210B01F70F0DF008024E4 /* Frameworks */,
+				096210B11F70F0DF008024E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096210B51F70F0DF008024E4 /* PBXTargetDependency */,
+			);
+			name = CZAddressTests;
+			productName = CZAddressTests;
+			productReference = 096210B31F70F0DF008024E4 /* CZAddressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		096210BD1F70F0DF008024E4 /* CZAddressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096210CD1F70F0DF008024E4 /* Build configuration list for PBXNativeTarget "CZAddressUITests" */;
+			buildPhases = (
+				096210BA1F70F0DF008024E4 /* Sources */,
+				096210BB1F70F0DF008024E4 /* Frameworks */,
+				096210BC1F70F0DF008024E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096210C01F70F0DF008024E4 /* PBXTargetDependency */,
+			);
+			name = CZAddressUITests;
+			productName = CZAddressUITests;
+			productReference = 096210BE1F70F0DF008024E4 /* CZAddressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0962108F1F70F0DF008024E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "程健";
+				TargetAttributes = {
+					096210961F70F0DF008024E4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4NFK7LY35M;
+						ProvisioningStyle = Automatic;
+					};
+					096210B21F70F0DF008024E4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4NFK7LY35M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 096210961F70F0DF008024E4;
+					};
+					096210BD1F70F0DF008024E4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4NFK7LY35M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 096210961F70F0DF008024E4;
+					};
+				};
+			};
+			buildConfigurationList = 096210921F70F0DF008024E4 /* Build configuration list for PBXProject "CZAddress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0962108E1F70F0DF008024E4;
+			productRefGroup = 096210981F70F0DF008024E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				096210961F70F0DF008024E4 /* CZAddress */,
+				096210B21F70F0DF008024E4 /* CZAddressTests */,
+				096210BD1F70F0DF008024E4 /* CZAddressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096210951F70F0DF008024E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096210E51F70FE0A008024E4 /* ViewController.xib in Resources */,
+				099B4B6F1F71020200D11435 /* Main.storyboard in Resources */,
+				096210AD1F70F0DF008024E4 /* LaunchScreen.storyboard in Resources */,
+				096210AA1F70F0DF008024E4 /* Assets.xcassets in Resources */,
+				096210D41F70F1C6008024E4 /* area.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096210B11F70F0DF008024E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096210BC1F70F0DF008024E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0292121987A7B90F0F0BD98E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZAddress/Pods-CZAddress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		300BAAA108F0F40982B7B80B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB56D72D98CBEBDD0135FE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZAddress/Pods-CZAddress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096210931F70F0DF008024E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096210E41F70FE0A008024E4 /* ViewController.m in Sources */,
+				096210D81F70F61C008024E4 /* UIView+CZCategory.m in Sources */,
+				096210D51F70F1C6008024E4 /* CZAddressSelectView.m in Sources */,
+				0962109F1F70F0DF008024E4 /* AppDelegate.m in Sources */,
+				0962109C1F70F0DF008024E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096210AF1F70F0DF008024E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096210B81F70F0DF008024E4 /* CZAddressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096210BA1F70F0DF008024E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096210C31F70F0DF008024E4 /* CZAddressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096210B51F70F0DF008024E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 096210961F70F0DF008024E4 /* CZAddress */;
+			targetProxy = 096210B41F70F0DF008024E4 /* PBXContainerItemProxy */;
+		};
+		096210C01F70F0DF008024E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 096210961F70F0DF008024E4 /* CZAddress */;
+			targetProxy = 096210BF1F70F0DF008024E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		096210AB1F70F0DF008024E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096210AC1F70F0DF008024E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		096210C51F70F0DF008024E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		096210C61F70F0DF008024E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		096210C81F70F0DF008024E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF6A1FD1591CD77775AF5787 /* Pods-CZAddress.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NFK7LY35M;
+				INFOPLIST_FILE = CZAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cz.CZAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		096210C91F70F0DF008024E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51026217D67284FE77FB1A3C /* Pods-CZAddress.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NFK7LY35M;
+				INFOPLIST_FILE = CZAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cz.CZAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		096210CB1F70F0DF008024E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4NFK7LY35M;
+				INFOPLIST_FILE = CZAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cz.CZAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZAddress.app/CZAddress";
+			};
+			name = Debug;
+		};
+		096210CC1F70F0DF008024E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4NFK7LY35M;
+				INFOPLIST_FILE = CZAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cz.CZAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZAddress.app/CZAddress";
+			};
+			name = Release;
+		};
+		096210CE1F70F0DF008024E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4NFK7LY35M;
+				INFOPLIST_FILE = CZAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cz.CZAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CZAddress;
+			};
+			name = Debug;
+		};
+		096210CF1F70F0DF008024E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4NFK7LY35M;
+				INFOPLIST_FILE = CZAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cz.CZAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CZAddress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096210921F70F0DF008024E4 /* Build configuration list for PBXProject "CZAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096210C51F70F0DF008024E4 /* Debug */,
+				096210C61F70F0DF008024E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096210C71F70F0DF008024E4 /* Build configuration list for PBXNativeTarget "CZAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096210C81F70F0DF008024E4 /* Debug */,
+				096210C91F70F0DF008024E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096210CA1F70F0DF008024E4 /* Build configuration list for PBXNativeTarget "CZAddressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096210CB1F70F0DF008024E4 /* Debug */,
+				096210CC1F70F0DF008024E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096210CD1F70F0DF008024E4 /* Build configuration list for PBXNativeTarget "CZAddressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096210CE1F70F0DF008024E4 /* Debug */,
+				096210CF1F70F0DF008024E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0962108F1F70F0DF008024E4 /* Project object */;
+}
